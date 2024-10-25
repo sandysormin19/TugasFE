@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Lifestyle Vibes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-light">
+<style>
+    .carousel-item {
+        height: 500px; /* Set consistent height for all carousel items */
+    }
+
+    .carousel-item img {
+        object-fit: cover; /* Ensure the image covers the entire container */
+        width: 100%;
+        height: 100%;
+    }
+
+    @media (max-width: 768px) {
+        .carousel-item {
+            height: 300px; /* Adjust height for smaller screens */
+        }
+    }
+
+</style>
+<!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Lifestyle Vibes</a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a> <!-- Link ke halaman About -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a> <!-- Link ke halaman Contact -->
+                </li>
+                <li class="nav-item ms-2">
+                    <a class="btn btn-outline-light" href="#">Subscribe</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Hero Section with Carousel -->
+<section class="py-5 text-center text-white bg-dark bg-gradient">
+    <div class="container py-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?q=80&w=1932&auto=format&fit=crop" class="d-block w-10" alt="Explore lifestyle and wellness">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Embrace a Balanced Lifestyle</h5>
+                        <p>Find balance in health, wellness, and everyday living.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?q=80&w=1932&auto=format&fit=crop" class="d-block w-10" alt="Fashion and style">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Stay Fashion-Forward</h5>
+                        <p>Explore the latest fashion trends and styles.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1501693063149-98378d901d82?q=80&w=1932&auto=format&fit=crop" class="d-block w-10" alt="Mindfulness and wellness tips">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Wellness at Your Fingertips</h5>
+                        <p>Discover tips for mindfulness, wellness, and better living.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Main Content -->
+<main class="container my-5">
+    <div class="row">
+        <div class="col-md-8">
+            <h3 class="mb-4">Welcome to Lifestyle Vibes</h3>
+            <p class="lead">
+                Discover a world of trends, health, and mindful living. Whether you're into wellness, fitness, or just
+                looking to refresh your daily habits, you're in the right place.
+            </p>
+            <figure class="figure mb-4">
+                <img
+                        src="https://images.unsplash.com/photo-1507919909716-c8262e491cde?q=80&w=1932&auto=format&fit=crop"
+                        class="figure-img img-fluid rounded"
+                        alt="Wellness lifestyle image from Unsplash"
+                />
+                <figcaption class="figure-caption text-end">
+                    <a href="https://unsplash.com" class="text-decoration-none">Photo from Unsplash</a>
+                </figcaption>
+            </figure>
+            <h3 class="mb-3">Latest in Wellness</h3>
+            <p class="mb-4">
+                From meditation techniques to fitness tips, discover the latest trends that keep you healthy and grounded.
+            </p>
+            <h3 class="mb-3">Explore Fashion & Trends</h3>
+            <p>
+                Stay ahead of the curve with insights into trending fashion, sustainable style, and more.
+            </p>
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxpdmluZyUyMGhlYWx0aHxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">7 tips for healthy & happy living</h5>
+                            <p class="card-text">Here are seven simple adjustments that can make a marked improvement in your health both right away and long-term</p>
+                            <a href="#" class="btn btn-primary">let's go</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 mb-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1591133258306-db968099262d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGltZXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Healthy infused water</h5>
+                            <p class="card-text">How to Stay Hydrated with Healthy Infused Water.</p>
+                            <a href="#" class="btn btn-primary">let's go</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 mb-4">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1668554245790-bfdc72f0bb3d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGFwcHl8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">How to Build a Fulfilling Career Doing What You Love</h5>
+                            <p class="card-text">If you’re feeling drained or uninspired in your career, or you’re tired of waking up every day dreading heading into work—this post is for you!</p>
+                            <a href="#" class="btn btn-primary">let's go</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar Cards -->
+        <div class="col-md-4">
+            <div class="card shadow-sm mb-4">
+                <img
+                        src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&auto=format&fit=crop"
+                        class="card-img-top"
+                        alt="Wellness trends"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Wellness Trends</h5>
+                    <p class="card-text">
+                        Learn about the newest wellness trends to improve your daily life.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card shadow-sm mb-4">
+                <img
+                        src="https://images.unsplash.com/photo-1506459225024-1428097a7e18?q=80&w=800&fit=crop"
+                        class="card-img-top"
+                        alt="Fashion trends"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Fashion & Trends</h5>
+                    <p class="card-text">
+                        Explore the latest styles and keep your wardrobe fresh.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card shadow-sm mb-4">
+                <img
+                        src="https://images.unsplash.com/photo-1497005367839-6e852de72767?q=80&w=800&fit=crop"
+                        class="card-img-top"
+                        alt="Lifestyle tips"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Lifestyle Tips</h5>
+                    <p class="card-text">
+                        Get valuable tips to enhance your lifestyle and maintain balance.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Subscribe Section -->
+<section class="py-5 bg-light border-top">
+    <div class="container text-center">
+        <h2 class="mb-3">Join Our Community</h2>
+        <p class="lead mb-4">Subscribe for the latest updates in wellness, fashion, and mindful living.</p>
+        <form class="row g-3 justify-content-center">
+            <div class="col-md-4">
+                <input
+                        type="text"
+                        class="form-control"
+                        id="firstname"
+                        placeholder="First Name"
+                        required
+                />
+            </div>
+            <div class="col-md-4">
+                <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="Email"
+                        required
+                />
+            </div>
+            <div class="col-md-2">
+                <button
+                        type="submit"
+                        class="btn btn-primary w-100"
+                        onclick="event.preventDefault()"
+                >
+                    Subscribe
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-3 bg-primary text-white">
+    <div class="container text-center">
+        <small>
+            <a href="#" class="text-white text-decoration-none">Privacy Policy</a> •
+            <a href="#" class="text-white text-decoration-none">Terms & Conditions</a>
+        </small>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
